@@ -1,0 +1,404 @@
+@import "./components/Professor/professor.css";
+@import "./components/style_sheet/student.css";
+@import "./components/style_sheet/effect.css";
+
+/*Page style*/
+.HomeBG{
+  background:linear-gradient(to right,rgb(86, 188, 202),rgb(22, 71, 117)); /*Student platform background*/
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.rowcenter{
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.toprow{
+  padding-top: 65px;
+}
+
+.scroll Col{
+  overflow:scroll;
+  max-height: 200px;
+}
+
+.announcement{
+  font-size:9.5pt;
+}
+
+.cardlist a{
+  color:white;
+  float: left;
+  text-align: left;
+  font-size: .9em;
+  margin: 2%;
+}
+.cardlist a:hover{
+  color:black;
+  text-decoration:none;
+}
+.card{
+  margin-top: 17px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+/*App.js*/
+.App {
+  text-align: center;
+}
+
+.footer{
+  font-size: 7pt;
+  transition: transform 2s;
+}
+
+.footer:hover{
+  transform: scale(1.3) translate(0px,-25px);
+  font-weight: bolder;
+}
+
+/*Blog / add-blog.jsx*/
+
+.blogtextbox{
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.bloginput{
+  background-color: rgba(211, 211, 211, 0.4);
+  height:400px;
+  width:100%;
+  border-color: white;
+}
+.logform{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+/*Blog / blog.jsx*/
+
+.time-entry{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align:left;
+}
+
+.time{
+  color: #ffffff;
+}
+
+.blog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogbody{
+  padding-left:8px;
+  padding-right:2px;
+}
+
+/*Blog / Blogging*/
+/*none*/
+
+/*Blog / popwindow*/
+
+.blogicon{
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*Feature / Calendar*/
+/*It is in the style sheet folder*/
+
+/*Feature / Courses*/
+
+.courses{
+  width: 100%;;
+  margin-left:-1%;
+  margin-top:1.5%;
+  margin-bottom:2%;
+}
+
+.icon{
+  width:100%;
+  margin: 1%;
+  padding-top: 20px;
+}
+
+/*Feature / listgroups*/
+.list{
+  margin: 1px;
+  border-radius: 10px;
+}
+
+/*Feature / moment*/
+
+.Carousels{
+  margin: -5.5%;
+  }
+
+/*Feature / section*/
+
+.card-body{
+  width: auto;
+  margin-top: -20px;
+}
+
+/*Feature / sidebar*/
+
+.menu-item{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: transform 1s;
+}
+
+.menu-item:hover{
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+/*firebase / login.js*/
+
+.startpageicon{
+  margin-bottom: 5%;
+  margin-top: 30px;
+}
+
+.loginbtn{
+  width:10%;
+}
+
+/*firebase / P_login.js*/
+/*It is in the Professor's folder*/
+
+/*firebase / signup*/
+/*Share code with login*/
+
+
+
+/*NavBar / AccInfo*/
+
+.separator{
+  display: flex;
+  justify-content: space-between;
+}
+
+.courseinfo{
+  text-align: left;
+  font-size: 11pt;;
+}
+
+.courseinfo h5{
+  font-size: 1.1em;
+  padding-left: 10px;
+  padding-top: 2%;
+}
+
+#progress{
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/*NavBar / navbar*/
+.homepageicon{
+  padding-left: 60px;
+}
+
+#navbg{
+  height: 50px;
+  max-height: 50px; /* nav bar height*/
+  background-color:rgba(255, 255, 255, 0.585);
+}
+
+#accicon{
+  margin-top: -10px;
+  border-radius:10px;
+
+}
+
+/*todolist spellinput*/
+.todolist{
+  font-size:9pt;
+  height:70px;
+  width: 80%;
+  font-weight:550;
+  color:navy;
+  border-radius: 10px;
+  border-color: white;
+  margin-right:2%;
+  margin-bottom:-30px;
+  max-height:120px;
+  min-height: 70px;
+}
+
+
+.buttonheight{
+  width:18%;
+}
+
+/*todolist / todolist*/
+.inputwidth{
+  width:88%;
+  margin:0px;
+  color:navy;
+  border-radius: 10px;
+  font-size:8pt;
+  height:50px;
+  border-color: white;
+  min-height:50px;
+  max-height:120px;
+}
+
+.addwidth{
+  width:10%;
+  float: right;
+}
+
+
+
+/*General*/
+button{
+  width: 100%;
+}
+
+h1{
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+}
+
+form {
+	display: flex;
+	justify-content: top;
+  flex-direction:column;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+  text-align: center;
+}
+
+
+
+/*Side bar section   */
+
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #02a4fa;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 26px;
+  top: 13px;
+  transition: transform 1s;
+}
+
+.bm-burger-button:hover{
+  transform: scale(1.3);
+}
+
+.bm-burger-bars {
+  background: #126bba;  /* side bar button color*/
+}
+
+
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #ffffff00;
+}
+
+.bm-menu {
+  background:rgba(255, 255, 255, 0.818);  /*Side bar background color   */
+  width: 60%; /*side bar width*/
+  padding-top:2.4em;
+  margin-left: -5%;
+  margin-right: 30px;
+  font-size: 1.1em;
+  border-radius: 10px;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+/*Login / Signup*/
+input {
+  background-color: rgb(255, 255, 255);
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+  width: 100%;
+  height: 40px;
+  box-shadow: black;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+button:active {
+	transform: scale(0.9);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+
+
+
+
+
+
